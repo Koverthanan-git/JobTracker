@@ -1,0 +1,40 @@
+# Python virtual environment
+venv/
+env/
+.venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Environment variables (NEVER commit)
+.env
+.env.local
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# mypy
+.mypy_cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Uploads directory
+uploads/
+
+# SQLite (if used locally)
+*.db
+*.sqlite3
+tracker/
+venv/

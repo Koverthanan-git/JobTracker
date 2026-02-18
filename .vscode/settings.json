@@ -1,0 +1,13 @@
+{
+    "git.ignoreLimitWarning": true,
+
+    "python.analysis.extraPaths": ["./personal-ats-backend"],
+    "python.linting.pylintArgs": [
+        "--init-hook",
+        "import sys; sys.path.append('./personal-ats-backend')"
+    ]
+
+,
+
+    "python.envFile": "${workspaceFolder}/.env"
+}
